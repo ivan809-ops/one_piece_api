@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(
+    180deg,
+    #a0d8ef,
+    #ffffff
+  ); /* Sky blue to white gradient */
+  color: #0b1d51; /* Dark blue text for contrast */
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.logo {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #f4d03f; /* Gold accent like One Piece logo */
+}
+
+.header h1 {
+  color: #0077b6; /* Bright ocean blue */
+  margin-bottom: 25px;
+}
+
+/* TABS */
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  padding: 12px 28px;
+  border-radius: 10px;
+  border: 2px solid #0077b6; /* Blue border */
+  cursor: pointer;
+  font-size: 16px;
+  background: #ffffff; /* White background */
+  color: #0077b6; /* Blue text */
+  transition: all 0.3s ease;
+}
+
+.tabs button.active {
+  background: #0077b6; /* Blue when active */
+  color: #ffffff; /* White text */
+}
+
+/* SEARCH */
+.search-box {
+  display: flex;
+  justify-content: center;
+}
+
+.search-box input {
+  width: 420px;
+  max-width: 90%;
+  padding: 14px;
+  border-radius: 12px;
+  border: 2px solid #0077b6; /* Blue border */
+  font-size: 16px;
+  outline: none;
+}
+
+/* CONTENT */
+main {
+  padding: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #e0f7fa; /* Light blue card background */
+  border-radius: 14px;
+  padding: 18px;
+  border: 2px solid #0077b6; /* Blue border */
+}
+
+.card h3 {
+  color: #0077b6; /* Dark blue headings */
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #0b1d51; /* Dark blue text */
+}
+
+/* NO RESULTS */
+.no-results {
+  text-align: center;
+  margin-top: 30px;
+  display: none;
+  color: #0077b6; /* Blue text */
+}
